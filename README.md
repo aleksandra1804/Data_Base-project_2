@@ -51,5 +51,6 @@ o	kolumny:
 -	Product_count – naliczona liczba sztuk.
 o	klucz główny: Delivery_date, ProductID.
 
-![image](https://github.com/aleksandra1804/Data_Base-project_2/assets/24977862/cad9e52a-0053-4e41-9301-c8c7aa26da7b)
+![Obraz1](https://github.com/aleksandra1804/Data_Base-project_2/assets/24977862/2c86a4be-2556-431c-9a11-4530074d9c93)
+
 
