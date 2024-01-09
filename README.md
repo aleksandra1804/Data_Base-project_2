@@ -7,7 +7,7 @@
 - *transaction.sql* - skrypt z przykładową transakcją,
 - *indexes.sql* - skrypt do utworzenia indeksów w bazie danych,
 - *stored_procedure.sql* - skrypt z przykładową procedurą składową.
-- 
+
 ## Opis bazy danych:
 Baza danych zawiera informacje o inwentaryzacjach przeprowadzonych w małym sklepie. Baza składa się z tabel: 
 * **Products** (informacje o produktach),
@@ -23,51 +23,51 @@ Założenia:
 ## Opisy tabel:
 ### Products  - informacje o produktach,
 a)	kolumny:
--	ProductID – id produktu,
--	Product_name – nazwa produktu,
-- Product_group – grupa produktów,
-- Price – cena za sztukę,
--	Cost – koszt za sztukę,
--	Expiration_date – data ważności.
+-	*ProductID* – id produktu,
+-	*Product_name* – nazwa produktu,
+- *Product_group* – grupa produktów,
+- *Price* – cena za sztukę,
+-	*Cost* – koszt za sztukę,
+-	*Expiration_date* – data ważności (dopuszczalne braki danych).
 
-b)	klucz główny: ProductID.
+b)	klucz główny: *ProductID*.
 
 ###	Inventories  - informacje o inwentaryzacjach,
 a)	kolumny:
--	InventoryID – id inwentaryzacji,
--	EmployeeID – id pracownika opowiedzialnego za inwentaryzację,
--	Inventory_start – data początku inwentaryzacji,
--	Inventory_end –  data końca inwentaryzacji.
+-	*InventoryID* – id inwentaryzacji,
+-	*EmployeeID* – id pracownika opowiedzialnego za inwentaryzację,
+-	*Inventory_start* – data początku inwentaryzacji,
+-	*Inventory_end* –  data końca inwentaryzacji.
 
-b) klucz główny: InventoryID.
+b) klucz główny: *InventoryID*.
 
 ###	Employees  - informacje o pracownikach,
 a)	kolumny:
--	EmployeeID – id pracownika,
--	First_name – imię,
--	Last_name – nazwisko,
--	Title – stanowisko,
--	Phone_number – nr telefonu,
--	Emaile – email,
--	Current_employee – czy aktualny pracownik.
--	
-b)	klucz główny: EmployeeID.
+-	*EmployeeID* – id pracownika,
+-	*First_name* – imię,
+-	*Last_name* – nazwisko,
+-	*Title* – stanowisko (dopuszczalne braki danych),
+-	*Phone_number* – nr telefonu (dopuszczalne braki danych),
+-	*Emaile* – email (dopuszczalne braki danych),
+-	*Current_employee* – czy aktualny pracownik.
+
+b)	klucz główny: *EmployeeID*.
 
 ###	Results  - informacje o wynikach inwentaryzacji,
 a) kolumny:
--	InvenoryID – id inventaryzacji,
--	ProductID – id produktu,
--	Product_count – naliczona liczba sztuk.
+-	*InvenoryID* – id inventaryzacji,
+-	*ProductID* – id produktu,
+-	*Product_count* – naliczona liczba sztuk.
 
-b)	klucz główny: InvenoryID, ProductID.
+b)	klucz główny: *InvenoryID*, *ProductID*.
 
 ###	Delivries  - informacje o dostawach produktów,
 a)	kolumny:
--	Delivery_date – data dostawy,
--	ProductID – id produktu,
--	Product_count – naliczona liczba sztuk.
+-	*Delivery_date* – data dostawy,
+-	*ProductID* – id produktu,
+-	*Product_count* – naliczona liczba sztuk.
 
-b) klucz główny: Delivery_date, ProductID.
+b) klucz główny: *Delivery_date*, *ProductID*.
 
 ## Diagram bazy danych:
 
