@@ -1,4 +1,13 @@
-# Data_Base-project_2
+# Database-project_2
+
+## Opis plików:
+- *Inventory2.bak* -- backup bazy danych,
+- *create_database.sql* - skrypt do stworzenia bazy danych,
+- *fake_data.sql* - skrypt do wczytania kilku rekordów do tabel,
+- *transaction.sql* - skrypt z przykładową transakcją,
+- *indexes.sql* - skrypt do utworzenia indeksów w bazie danych,
+- *stored_procedure.sql* - skrypt z przykładową procedurą składową.
+- 
 ## Opis bazy danych:
 Baza danych zawiera informacje o inwentaryzacjach przeprowadzonych w małym sklepie. Baza składa się z tabel: 
 * **Products** (informacje o produktach),
@@ -22,15 +31,18 @@ a)	kolumny:
 -	Expiration_date – data ważności.
 
 b)	klucz główny: ProductID.
+
 ###	Inventories  - informacje o inwentaryzacjach,
-*	kolumny:
+a)	kolumny:
 -	InventoryID – id inwentaryzacji,
 -	EmployeeID – id pracownika opowiedzialnego za inwentaryzację,
 -	Inventory_start – data początku inwentaryzacji,
 -	Inventory_end –  data końca inwentaryzacji.
-*	klucz główny: InventoryID.
+
+b) klucz główny: InventoryID.
+
 ###	Employees  - informacje o pracownikach,
-*	kolumny:
+a)	kolumny:
 -	EmployeeID – id pracownika,
 -	First_name – imię,
 -	Last_name – nazwisko,
@@ -38,20 +50,25 @@ b)	klucz główny: ProductID.
 -	Phone_number – nr telefonu,
 -	Emaile – email,
 -	Current_employee – czy aktualny pracownik.
-*	klucz główny: EmployeeID.
+-	
+b)	klucz główny: EmployeeID.
+
 ###	Results  - informacje o wynikach inwentaryzacji,
-* kolumny:
+a) kolumny:
 -	InvenoryID – id inventaryzacji,
 -	ProductID – id produktu,
 -	Product_count – naliczona liczba sztuk.
-*	klucz główny: InvenoryID, ProductID.
+
+b)	klucz główny: InvenoryID, ProductID.
+
 ###	Delivries  - informacje o dostawach produktów,
-*	kolumny:
+a)	kolumny:
 -	Delivery_date – data dostawy,
 -	ProductID – id produktu,
 -	Product_count – naliczona liczba sztuk.
-*	klucz główny: Delivery_date, ProductID.
+
+b) klucz główny: Delivery_date, ProductID.
+
+## Diagram bazy danych:
 
 ![Obraz1](https://github.com/aleksandra1804/Data_Base-project_2/assets/24977862/2c86a4be-2556-431c-9a11-4530074d9c93)
-
-
