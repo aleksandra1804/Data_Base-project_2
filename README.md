@@ -1,6 +1,11 @@
 # Data_Base-project_2
 ## Opis bazy danych:
-Baza danych zawiera informacje o inwentaryzacjach przeprowadzonych w małym sklepie. Baza składa się z tabel: **Products** (informacje o produktach), **Inventories** (informacje o inwentaryzacjach), **Deliveries** (informacje o dostawach), **Results** (informacje o wynikach inwentaryzacji) oraz **Employees** (informacje o pracownikach).\
+Baza danych zawiera informacje o inwentaryzacjach przeprowadzonych w małym sklepie. Baza składa się z tabel: 
+* **Products** (informacje o produktach),
+* **Inventories** (informacje o inwentaryzacjach),
+* **Deliveries** (informacje o dostawach),
+* **Results** (informacje o wynikach inwentaryzacji),
+* **Employees** (informacje o pracownikach).\
 
 Założenia: 
 * produkty nie są kradzione, nie giną itp., tzn. produkty, które były dostarczone, a nie ma ich na inwentaryzacji, zostały sprzedane,
@@ -45,3 +50,6 @@ o	kolumny:
 -	ProductID – id produktu,
 -	Product_count – naliczona liczba sztuk.
 o	klucz główny: Delivery_date, ProductID.
+
+![image](https://github.com/aleksandra1804/Data_Base-project_2/assets/24977862/cad9e52a-0053-4e41-9301-c8c7aa26da7b)
+
