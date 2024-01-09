@@ -5,7 +5,7 @@ Baza danych zawiera informacje o inwentaryzacjach przeprowadzonych w małym skle
 * **Inventories** (informacje o inwentaryzacjach),
 * **Deliveries** (informacje o dostawach),
 * **Results** (informacje o wynikach inwentaryzacji),
-* **Employees** (informacje o pracownikach).\
+* **Employees** (informacje o pracownikach).
 
 Założenia: 
 * produkty nie są kradzione, nie giną itp., tzn. produkty, które były dostarczone, a nie ma ich na inwentaryzacji, zostały sprzedane,
@@ -19,7 +19,7 @@ a)	kolumny:
 - Product_group – grupa produktów,
 - Price – cena za sztukę,
 -	Cost – koszt za sztukę,
--	Expiration_date – data ważności.\
+-	Expiration_date – data ważności.
 
 b)	klucz główny: ProductID.
 ###	Inventories  - informacje o inwentaryzacjach,
