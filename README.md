@@ -1,7 +1,7 @@
-# Database-project_2
+# Database - Project 2
 
 ## Opis plików:
-- *Inventory2.bak* -- backup bazy danych,
+- *Inventory2.bak* - backup bazy danych,
 - *create_database.sql* - skrypt do stworzenia bazy danych,
 - *fake_data.sql* - skrypt do wczytania kilku rekordów do tabel,
 - *transaction.sql* - skrypt z przykładową transakcją,
