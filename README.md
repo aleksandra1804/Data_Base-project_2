@@ -12,24 +12,24 @@ Założenia:
 * id inwentaryzacji to kolejne liczby naturalne.
 
 ## Opisy tabel:
-*	Products  - informacje o produktach,
-o	kolumny:
+### Products  - informacje o produktach,
+*	kolumny:
 -	ProductID – id produktu,
 -	Product_name – nazwa produktu,
 - Product_group – grupa produktów,
 - Price – cena za sztukę,
 -	Cost – koszt za sztukę,
 -	Expiration_date – data ważności.
-o	klucz główny: ProductID.
-*	Inventories  - informacje o inwentaryzacjach,
-o	kolumny:
+*	klucz główny: ProductID.
+###	Inventories  - informacje o inwentaryzacjach,
+*	kolumny:
 -	InventoryID – id inwentaryzacji,
 -	EmployeeID – id pracownika opowiedzialnego za inwentaryzację,
 -	Inventory_start – data początku inwentaryzacji,
 -	Inventory_end –  data końca inwentaryzacji.
-o	klucz główny: InventoryID.
-*	Employees  - informacje o pracownikach,
-o	kolumny:
+*	klucz główny: InventoryID.
+###	Employees  - informacje o pracownikach,
+*	kolumny:
 -	EmployeeID – id pracownika,
 -	First_name – imię,
 -	Last_name – nazwisko,
@@ -37,19 +37,19 @@ o	kolumny:
 -	Phone_number – nr telefonu,
 -	Emaile – email,
 -	Current_employee – czy aktualny pracownik.
-o	klucz główny: EmployeeID.
-*	Results  - informacje o wynikach inwentaryzacji,
-o	kolumny:
+*	klucz główny: EmployeeID.
+###	Results  - informacje o wynikach inwentaryzacji,
+* kolumny:
 -	InvenoryID – id inventaryzacji,
 -	ProductID – id produktu,
 -	Product_count – naliczona liczba sztuk.
-o	klucz główny: InvenoryID, ProductID.
-*	Delivries  - informacje o dostawach produktów,
-o	kolumny:
+*	klucz główny: InvenoryID, ProductID.
+###	Delivries  - informacje o dostawach produktów,
+*	kolumny:
 -	Delivery_date – data dostawy,
 -	ProductID – id produktu,
 -	Product_count – naliczona liczba sztuk.
-o	klucz główny: Delivery_date, ProductID.
+*	klucz główny: Delivery_date, ProductID.
 
 ![Obraz1](https://github.com/aleksandra1804/Data_Base-project_2/assets/24977862/2c86a4be-2556-431c-9a11-4530074d9c93)
 
