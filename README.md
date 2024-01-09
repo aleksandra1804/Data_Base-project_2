@@ -1,4 +1,4 @@
-# Database - Project 2
+# Data Base - Project 2
 
 ## Opis plików:
 - *Inventory2.bak* - backup bazy danych,
