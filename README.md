@@ -13,14 +13,14 @@ Założenia:
 
 ## Opisy tabel:
 ### Products  - informacje o produktach,
-*	kolumny:
+a)	kolumny:
 -	ProductID – id produktu,
 -	Product_name – nazwa produktu,
 - Product_group – grupa produktów,
 - Price – cena za sztukę,
 -	Cost – koszt za sztukę,
 -	Expiration_date – data ważności.
-*	klucz główny: ProductID.
+b)	klucz główny: ProductID.
 ###	Inventories  - informacje o inwentaryzacjach,
 *	kolumny:
 -	InventoryID – id inwentaryzacji,
