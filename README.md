@@ -1,6 +1,6 @@
 # Data_Base-project_2
 ## Opis bazy danych:
-Baza danych zawiera informacje o inwentaryzacjach przeprowadzonych w małym sklepie. Baza składa się z tabel: **Products** (informacje o produktach), **Inventories** (informacje o inwentaryzacjach), **Deliveries** (informacje o dostawach), **Results** (informacje o wynikach inwentaryzacji) oraz **Employees** (informacje o pracownikach).
+Baza danych zawiera informacje o inwentaryzacjach przeprowadzonych w małym sklepie. Baza składa się z tabel: **Products** (informacje o produktach), **Inventories** (informacje o inwentaryzacjach), **Deliveries** (informacje o dostawach), **Results** (informacje o wynikach inwentaryzacji) oraz **Employees** (informacje o pracownikach).\
 Założenia: 
 * produkty nie są kradzione, nie giną itp., tzn. produkty, które były dostarczone, a nie ma ich na inwentaryzacji, zostały sprzedane,
 * id inwentaryzacji to kolejne liczby naturalne.
