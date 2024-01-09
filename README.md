@@ -20,6 +20,7 @@ a)	kolumny:
 - Price – cena za sztukę,
 -	Cost – koszt za sztukę,
 -	Expiration_date – data ważności.\
+
 b)	klucz główny: ProductID.
 ###	Inventories  - informacje o inwentaryzacjach,
 *	kolumny:
