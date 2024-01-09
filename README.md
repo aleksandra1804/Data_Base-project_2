@@ -19,7 +19,7 @@ a)	kolumny:
 - Product_group – grupa produktów,
 - Price – cena za sztukę,
 -	Cost – koszt za sztukę,
--	Expiration_date – data ważności.
+-	Expiration_date – data ważności.\
 b)	klucz główny: ProductID.
 ###	Inventories  - informacje o inwentaryzacjach,
 *	kolumny:
